@@ -24,7 +24,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     # 读取 date 文件夹中的数据文件
-    df = pd.read_csv('date/人口数据.csv', encoding='utf-8')
+    df = pd.read_csv('人口数据.csv', encoding='utf-8')
     
     # 确保数值列类型正确
     numeric_cols = ['户数合计', '家庭户户数', '集体户户数', '人口合计', 
