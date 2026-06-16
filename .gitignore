@@ -1,0 +1,8 @@
+.venv/
+.env
+__pycache__/
+*.log
+*.pyc
+
+# 忽略人口数据文件
+人口数据.csv
